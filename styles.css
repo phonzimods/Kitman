@@ -1,0 +1,192 @@
+body{
+    background-color: #191d30;
+}
+
+/* styles.css */
+
+header {
+    background-color: #030303; /* Example background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.logo-container img {
+    max-width: 100px; /* Set the maximum width of the logo */
+}
+
+nav a {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    padding: 10px 20px; /* Adjust padding for a larger square background */
+    border-radius: 8px; /* Adjust border-radius for a smoother appearance */
+
+    transition: color 0.3s, background-color 1s;
+}
+
+nav a:hover {
+    color: #000; /* Text color on hover */
+    background-color: #fff; /* Background color on hover */
+}
+/* Add specific styles as needed */
+
+/* styles.css */
+
+main {
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-button-container {
+    flex: 1; /* Takes the available space */
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    float: left;
+    text-align: left;
+    color: white;
+}
+
+.image-container {
+    float: right;
+    max-width: 700px; /* Set the maximum width for the image container */
+    margin-right: 80px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.image-container img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    display: block; /* Remove extra space under the image */
+}
+
+.button-container {
+    float: left;
+    max-width: 200px;
+    margin-right: 40px;
+}
+
+.download-button {
+    background-color: #91A83C; /* Green color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #323a14; /* Darker color on hover */
+}
+
+.hsc{
+    margin: 0 auto;
+}
+
+.this{
+    margin-right: 15px;
+}
+
+.Welcome{
+    margin-left: 30px;
+    color: white;
+}
+
+h2{
+    color: #91A83C;
+}
+
+.Welcome h1 {
+    user-select: none; /* Prevent text selection */
+    -moz-user-select: none; /* For Firefox */
+    -webkit-user-select: none; /* For Chrome, Safari, and Edge */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+}
+
+.arrabta{
+    color: red;
+}
+
+        footer {
+            background-color: #030303;
+            color: #fff;
+            text-align: center;
+            height: 60px;
+            border-radius: 15px;
+        }
+.foottext{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+}
+
+.social-media {
+    order: 2; /* To move it to the right */
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.social-media img {
+    width: 30px; /* Adjust the size of your social media icons */
+    margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.follow-text {
+    font-size: 14px;
+    color: #555;
+    transition: 0.3s;
+}
+.follow-text:hover{
+    color: #999797;
+
+}
+
+footer{
+    float: bottom;
+}
+
+.fifee{
+    margin-bottom: 50px;
+}
+li{
+    padding: 5px;
+}
+.Red{
+    color: red;
+}
+.Green{
+    color: green;
+}
+.Yellow{
+    color: yellow;
+}
+
+.social-logo{
+    align-items: center;
+    padding: 15px;
+    width: 120px;
+    height: 120px;
+
+}
